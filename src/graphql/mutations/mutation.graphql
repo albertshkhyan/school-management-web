@@ -1,0 +1,13 @@
+type Mutation {
+    createStudent(studentInput: CreateStudentInput!): Student!
+    updateStudent(id: String!, studentInput: UpdateStudentInput!): Student!
+    deleteStudent(id: String!): Student!
+    addGrade(addGradeInput: AddGradeInput!): Student!
+    createTeacher(teacherInput: CreateTeacherInput!): Teacher!
+    updateTeacher(id: String!, teacherInput: UpdateTeacherInput!): Teacher!
+    deleteTeacher(id: String!): Teacher!
+    createSubject(createSubjectInput: CreateSubjectInput!): Subject!
+    updateSubject(id: String!, updateSubjectInput: UpdateSubjectInput!): Subject!
+    createClass(createClassInput: CreateClassInput!): Classes!
+    updateClass(id: String!, updateClassInput: UpdateClassInput!): Classes!
+}

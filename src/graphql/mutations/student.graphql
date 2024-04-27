@@ -1,0 +1,17 @@
+mutation CreateStudent($studentInput: CreateStudentInput!) {
+    createStudent(studentInput: $studentInput) {
+        ...StudentFragment
+    }
+}
+
+mutation AddGrade($addGradeInput: AddGradeInput!) {
+    addGrade(addGradeInput: $addGradeInput) {
+        ...StudentFragment
+    }
+}
+
+mutation UpdateStudent($studentId: String!, $input: UpdateStudentInput!) {
+    updateStudent(id: $studentId, studentInput: $input) {
+        ...StudentFragment
+    }
+}

@@ -1,0 +1,8 @@
+fragment StudentFragment on Student {
+    id
+    grade
+    studentClass {
+        id
+        name
+    }
+}

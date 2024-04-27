@@ -1,0 +1,30 @@
+type Student {
+    id: ID!
+    grade: Float
+    studentClass: Classes
+    firstName: String!
+    lastName: String!
+    age: Float
+}
+
+input AddGradeInput {
+    studentId: ID!
+    grade: Float!
+}
+
+input CreateStudentInput {
+    firstName: String!
+    lastName: String!
+    age: Float
+}
+
+input UpdateStudentInput {
+    firstName: String
+    lastName: String
+    age: Float
+}
+
+input UpdateSubjectInput {
+    name: String
+}
+

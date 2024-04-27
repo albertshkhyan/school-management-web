@@ -1,0 +1,9 @@
+type Query {
+    welcomeMessage: String!
+    getAllStudents: [Student!]!
+    getStudentById(id: String!): Student!
+    getAllTeachers: [Teacher!]!
+    getSubjectById(id: ID!): Subject!
+    getAllSubjects: [Subject!]!
+    getAllClasses: [Classes!]!
+}

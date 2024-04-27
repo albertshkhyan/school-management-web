@@ -1,0 +1,12 @@
+type Classes {
+    id: ID!
+    name: String!
+}
+
+input CreateClassInput {
+    name: String!
+}
+
+input UpdateClassInput {
+    name: String
+}

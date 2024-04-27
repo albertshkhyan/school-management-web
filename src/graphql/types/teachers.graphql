@@ -1,0 +1,15 @@
+type Teacher {
+    id: ID!
+    name: String!
+    classes: [Classes!]!
+}
+
+input CreateTeacherInput {
+    firstName: String!
+    lastName: String!
+}
+
+input UpdateTeacherInput {
+    firstName: String
+    lastName: String
+}
