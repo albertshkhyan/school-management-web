@@ -57,7 +57,7 @@ To generate TypeScript types and React hooks based on your GraphQL schema and op
 npm run generate
 ```
 
-## To generate introspection JSON file for your GraphQL API:
+### To generate introspection JSON file for your GraphQL API:
 
 ```bash
 npm run generate:introspection
