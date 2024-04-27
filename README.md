@@ -47,3 +47,20 @@ To get started with the School Management Tool (Web) project, follow these steps
    ```
 
 
+### Generating Code
+
+You can generate code using GraphQL Codegen. This can be done with the following commands:
+
+To generate TypeScript types and React hooks based on your GraphQL schema and operations:
+
+```bash
+npm run generate
+```
+
+## To generate introspection JSON file for your GraphQL API:
+
+```bash
+npm run generate:introspection
+```
+
+
